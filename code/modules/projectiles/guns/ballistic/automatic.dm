@@ -1941,8 +1941,8 @@
  * * * * * * * * * * */
 
 /obj/item/gun/ballistic/automatic/handmade_carbine
-	name = "Handmade Carbine"
-	desc = "This handmade carbine looks like its made out of rotting wood and scrap metal, and is a favorite among raider gangs for its ease of production and maintenance."
+	name = "Handmade Rifle"
+	desc = "This handmade rifle has become iconic due to its use by the nukaworld raider gangs. It's easy to produce, kills decently, and be fitted into a variety of forms. However, most look like they're just rotting wood and scrap metal been pressed and machined together, and yours is no different."
 	icon = 'icons/obj/guns/projectile.dmi'
 	icon_state = "handmade_rifle"
 	item_state = "handmade_rifle"
@@ -1972,7 +1972,7 @@
 
 /obj/item/gun/ballistic/automatic/handmade_rifle
 	name = "Handmade Assault Rifle"
-	desc = "A handmade assault rifle, created with a mixture of pre-war and improvised parts. Reliable and trusty, although it tends to kick more than normal. Perfect for raider, scavver and militia alike."
+	desc = "A handmade assault rifle, created with a mixture of pre-war and improvised parts. It's an upgrade from the typical handmade assault rifle with a reliable recoil, good stopping power, and respectable rate of fire and also a bayonet mount. Perfect for settler militia and marauding raider alike."
 	icon = 'icons/obj/guns/projectile.dmi'
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
@@ -2013,7 +2013,7 @@
 
 /obj/item/gun/ballistic/automatic/handmade_battle_rifle
 	name = "Handmade Battle Rifle"
-	desc = "A handmade battle rifle, created with a mixture of pre-war and improvised parts. Kicks like a mule but is accurate hits targets hard. A favorite amongst veteran raiders and some mercenaries."
+	desc = "A handmade battle rifle, created with a mixture of pre-war and improvised parts. It's been rechambered to fire .308 rounds and thus has damn good stopping power, but it's automatic recoil will kick harder than before. Typically a favorite among veteran raiders and mercenaries, who know how to control its violent kick."
 	icon = 'icons/obj/guns/projectile.dmi'
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
@@ -2029,6 +2029,7 @@
 	init_recoil = RIFLE_RECOIL(1.5)
 	init_firemodes = list(
 		/datum/firemode/automatic/rpm150,
+		/datum/firemode/semi_auto/slow,
 	)
 	gun_accuracy_zone_type = ZONE_WEIGHT_PRECISION
 	can_suppress = FALSE
@@ -2084,7 +2085,7 @@
 
 /obj/item/gun/ballistic/automatic/handmade_assault_carbine
 	name = "Handmade Assault Carbine"
-	desc = "A refinement of the usual handmade carbine, this Assault Carbine is significantly better bored and has a wire stock attached. A muzzle booster also has been added to increase fire rate and reliability. It is a surprising favorite amongst post-war vehicle crews, especially vertibird pilots."
+	desc = "An attempt to create an equal to the factory-produced Assault Carbine, the Handmade Assault Carbine has been given a wireframe and maintains the shorter barrel length. It's bolt has also been modified for a faster firing rate, and its muzzle break is doing barely enough to keep it controllable. It is a surprising favorite amongst post-war vehicle crews, however, especially vertibird pilots."
 	icon = 'icons/obj/guns/projectile.dmi'
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
